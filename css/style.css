@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 /* CSS Reset */
+.pop{
+  height: 200px;
+  background-color: bisque;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 30px;
+}
+.pop h1{
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.pop p {
+  text-align: center;
+  
+}
+.second{
+  height: 200px;
+  background-color: bisque;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 70%;
+  border-radius: 30px;
+}
+.second h1{
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.second p {
+  text-align: center;
+  
+}
 *,
 *::after,
 *::before {
@@ -43,6 +78,7 @@ svg {
 img {
   max-width: 100%;
 }
+
 
 #posts{
   display: grid;
